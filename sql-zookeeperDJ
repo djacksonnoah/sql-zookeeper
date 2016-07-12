@@ -1,0 +1,131 @@
+SELECT name FROM world
+  WHERE name LIKE 'Y%'
+  name
+Yemen
+
+2. SELECT name FROM world
+  WHERE name LIKE '%y'
+  name
+Turkey
+Germany
+Hungary
+Italy
+Norway
+Vatican City
+Paraguay
+Uruguay
+
+3. SELECT name FROM world
+  WHERE name LIKE '%x%'
+  name
+Luxembourg
+Mexico
+
+4. SELECT name FROM world
+  WHERE name LIKE '%land'
+  name
+Swaziland
+Thailand
+Finland
+Iceland
+Ireland
+Poland
+Switzerland
+New Zealand
+
+5. SELECT name FROM world
+  WHERE name LIKE 'c%ia'
+  name
+Cambodia
+Colombia
+Croatia
+
+6. SELECT name FROM world
+  WHERE name LIKE '%oo%'
+  name
+Cameroon
+
+7. SELECT name FROM world
+  WHERE name LIKE '%a%a%a%'
+  name
+Central African Republic
+Equatorial Guinea
+Madagascar
+Mauritania
+Tanzania
+Afghanistan
+Azerbaijan
+Malaysia
+Saudi Arabia
+United Arab Emirates
+Antigua and Barbuda
+Bahamas
+Jamaica
+Trinidad and Tobago
+Albania
+Bosnia and Herzegovina
+Kazakhstan
+Canada
+Guatemala
+Nicaragua
+Panama
+Australia
+Marshall Islands
+Micronesia, Federated States of
+Papua New Guinea
+Paraguay
+Saint Vincent and the Grenadines
+
+8. SELECT name FROM world
+ WHERE name LIKE '_t%'
+ORDER BY name
+name
+Ethiopia
+Italy
+
+9. SELECT name FROM world
+ WHERE name LIKE '%o__o%'
+ name
+Congo, Democratic Republic of
+Congo, Republic of
+Lesotho
+Morocco
+Sao Tomé and Príncipe
+Mongolia
+
+10. SELECT name FROM world
+ WHERE name LIKE '____'
+ name
+Chad
+Mali
+Togo
+Iran
+Iraq
+Laos
+Oman
+Cuba
+Fiji
+Peru
+
+11. SELECT name, capital
+  FROM world
+ WHERE name LIKE '___'
+ Wrong answer. Too many columns
+name	capital
+Show what the answer should be...
+name
+Djibouti
+Luxembourg
+San Marino
+Singapore
+
+12.  SELECT name, concat(name, 'town')
+  FROM world
+ WHERE name LIKE '%city'
+ Wrong answer. Too many columns
+name	concat(name, ..
+Vatican City	Vatican Citytown
+
+13. 
+
+  
